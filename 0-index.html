@@ -1,58 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holberton-Headphones</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="0-styles.css">
-</head>
-<body>
-    <div>
-    </div>
-    <!-- Header -->
-    <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Holberton Headphones</title>
+    <meta name="description" content="Example of headphone product site" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="0-styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./holberton_school-icon/demo-files/demo.css" />
+    <link rel="stylesheet" href="./holberton_school-icon/style.css" />
+  </head>
+  <body>
+    <div class="container-body">
+      <!-- Header -->
+      <header class="header">
         <div class="container">
-            <div class="header-container">
-                <input type="checkbox" class="menu-btn" id="menu-btn">
-                <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="images/logo_headphones.png" alt="Headphones logo">
-                    </a>
-                </div>
-                <nav class="navbar-menu">
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#what_we_do" class="nav-link">what we do</a></li>
-                        <li class="nav-item"><a href="#our_results" class="nav-link">our results</a></li>
-                        <li class="nav-item"><a href="#contact_us" class="nav-link">contact us</a></li>
-                    </ul>
-                </nav>
+          <div class="header-container">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"
+              ><span class="navicon"></span
+            ></label>
+            <div class="header-logo">
+              <a href="/"
+                ><img src="images/logo_headphones.png" alt="headphones logo"
+              /></a>
             </div>
+            <nav class="navbar-menu">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="#what_we_do" class="nav-link">what we do</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#our_results" class="nav-link">our results</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact_us" class="nav-link">contact us</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="navbar-placeholder"></div>
+          </div>
         </div>
-    </header>
-    <main class="main-container">
-        <!-- Hero section -->
-        <!-- <section class="section-hero hero-homepage"></section> -->
-        <section>
-            <div class="main-part">
-                <h3>Lorem ipsum dolor set amet lorem ipsum</h3>
-                <h5>Lorem ipsum dolor set amet lorem ipsum dolor set</h5>
-                <button class="button-primary">CALL TO ACTION</button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </header>
+      <!-- Main -->
+      <main>
+        <section class="section-hero hero-homepage">
+          <div class="container">
+            <div class="section-body">
+              <div class="section-inner">
+                <h1 class="section-header">
+                  Lorem ipsum dolor set amet lorem ipsum
+                </h1>
+                <p class="section-tagline">
+                  Lorem ipsum dolor set amet lorem ipsum dolor set
+                </p>
+                <div><button>CALL TO ACTION</button></div>
+                <div class="hero-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+              </div>
             </div>
-
+          </div>
         </section>
-        
-        <section class="what_we_do"></section>
-        <section class="our_results"></section>
-        <section class="contact_us"></section>
-
-    </main>
-
-
-</body>
+      </main>
+    </div>
+  </body>
 </html>
